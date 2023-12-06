@@ -107,7 +107,7 @@ module.exports = {
           .json({ message: 'No user found with that ID :(' });
       }
 
-      res.json(thought);
+      res.json("tought succesfully deleted");
     } catch (err) {
       res.status(500).json(err);
     }
